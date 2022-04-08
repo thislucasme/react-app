@@ -1,10 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Login } from '../src/login';
 import './App.css';
 
 function App() {
   return (
-    <h1>hello world!</h1>
+    <>
+      <h1>hello world!</h1>
+      <Login />
+      <button>Clique aqui e ganhe um Guinomo</button>
+    </>
   );
 }
 
